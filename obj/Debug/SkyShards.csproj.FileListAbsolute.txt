@@ -1,0 +1,7 @@
+C:\Users\Bram\source\repos\SkyShards\SkyShards\obj\Debug\SkyShards.csproj.AssemblyReference.cache
+C:\Users\Bram\source\repos\SkyShards\SkyShards\obj\Debug\SkyShards.csproj.CoreCompileInputs.cache
+C:\Users\Bram\source\repos\SkyShards\SkyShards\bin\Debug\SkyShards.exe.config
+C:\Users\Bram\source\repos\SkyShards\SkyShards\bin\Debug\SkyShards.exe
+C:\Users\Bram\source\repos\SkyShards\SkyShards\bin\Debug\SkyShards.pdb
+C:\Users\Bram\source\repos\SkyShards\SkyShards\obj\Debug\SkyShards.exe
+C:\Users\Bram\source\repos\SkyShards\SkyShards\obj\Debug\SkyShards.pdb
