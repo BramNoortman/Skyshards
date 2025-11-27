@@ -1,40 +1,37 @@
 ﻿using System;
 using System.IO;
-using System.Windows.Forms;
-
-
 
 namespace SkyShards
 {
     public class Program
     {
-        [STAThread]
         static void Main(string[] args)
         { 
-            Shards.Name = "Grove";
-            Shards.Rarity = "Common";
-            Shards.ImagePath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "Images", "Grove.png"));
-            Shards.family = "elemental";
-            Shards.Type = "global";
-            Shards.Level = 1;
-            Shards.Effect ="Grants +2 to +20 Health based on level";
-            Shards.CanFuse = true;
-            Shards.isenabled = true;
+            Shard grove = new Shard();
 
-            Console.WriteLine("Shard Name: " + Shards.Name);
-            Console.WriteLine("Image Path: " + Shards.ImagePath);
-            Console.WriteLine("Rarity: " + Shards.Rarity);
-            Console.WriteLine("Family: " + Shards.family);
-            Console.WriteLine("Type: " + Shards.Type);
-            Console.WriteLine("Level: " + Shards.Level);
-            Console.WriteLine("Effect: " + Shards.Effect);
-            Console.WriteLine("Can Fuse: " + Shards.CanFuse);
-            Console.WriteLine("Is Enabled: " + Shards.isenabled);
+            grove.name = "Grove";
+            grove.rarity = "Common";
+            grove.imagepath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "Images", "Grove.png"));
+            grove.family = "elemental";
+            grove.type = "global";
+            grove.level = 1;
+            grove.effect ="Grants +2 to +20 Health based on level";
+            grove.canfuse = true;
+            grove.isenabled = true;
+
+
+            Console.WriteLine("Welke shard wil je graag zien");
             
 
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ShardForm());
+            Console.WriteLine("Shard Name: " + grove.name);
+            Console.WriteLine("Image Path: " + grove.imagepath);
+            Console.WriteLine("Rarity: " + grove.rarity);
+            Console.WriteLine("Family: " + grove.family);
+            Console.WriteLine("Type: " + grove.type);
+            Console.WriteLine("Level: " + grove.level);
+            Console.WriteLine("Effect: " + grove.effect);
+            Console.WriteLine("Can Fuse: " + grove.canfuse);
+            Console.WriteLine("Is Enabled: " + grove.isenabled);
         }
     }
 }
