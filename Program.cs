@@ -9,29 +9,29 @@ namespace SkyShards
         { 
             Shard grove = new Shard();
 
-            grove.name = "Grove";
-            grove.rarity = "Common";
-            grove.imagepath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "Images", "Grove.png"));
-            grove.family = "elemental";
-            grove.type = "global";
-            grove.level = 1;
-            grove.effect ="Grants +2 to +20 Health based on level";
-            grove.canfuse = true;
-            grove.isenabled = true;
+            grove.Name = "Grove";
+            grove.Rarity = "Common";
+            grove.ImagePath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "Images", "Grove.png"));
+            grove.Family = "elemental";
+            grove.Type = "global";
+            grove.Level = 1;
+            grove.Effect ="Grants +2 to +20 Health based on level";
+            grove.CanFuse = true;
+            grove.IsEnabled = true;
 
 
-            Console.WriteLine("Welke shard wil je graag zien");
+            Console.WriteLine("Which shard would you like to see?");
             
 
-            Console.WriteLine("Shard Name: " + grove.name);
-            Console.WriteLine("Image Path: " + grove.imagepath);
-            Console.WriteLine("Rarity: " + grove.rarity);
-            Console.WriteLine("Family: " + grove.family);
-            Console.WriteLine("Type: " + grove.type);
-            Console.WriteLine("Level: " + grove.level);
-            Console.WriteLine("Effect: " + grove.effect);
-            Console.WriteLine("Can Fuse: " + grove.canfuse);
-            Console.WriteLine("Is Enabled: " + grove.isenabled);
+            Console.WriteLine("Shard Name: " + grove.Name);
+            Console.WriteLine("Image Path: " + grove.ImagePath);
+            Console.WriteLine("Rarity: " + grove.Rarity);
+            Console.WriteLine("Family: " + grove.Family);
+            Console.WriteLine("Type: " + grove.Type);
+            Console.WriteLine("Level: " + grove.Level);
+            Console.WriteLine("Effect: " + grove.Effect);
+            Console.WriteLine("Can Fuse: " + grove.CanFuse);
+            Console.WriteLine("Is Enabled: " + grove.IsEnabled);
         }
     }
 }
